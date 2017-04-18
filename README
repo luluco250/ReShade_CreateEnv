@@ -1,0 +1,4 @@
+This is a batch script that sets up folders for ReShade automatically.
+
+To use it, simply place it in the root folder of a game and run it.
+Alternatively you can drag the ReShade DLL onto it.
