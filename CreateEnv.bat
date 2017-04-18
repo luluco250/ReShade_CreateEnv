@@ -49,31 +49,31 @@ if not exist "ReShade\Presets\Default.ini" (
 ::Create ReShade game configuration file.
 (
 	echo [GENERAL]
-	echo PerformanceMode=0
-    echo TutorialProgress=4
-    echo ScreenshotFormat=1
-    echo ShowClock=0
-    echo ShowFPS=0
 	echo ScreenshotPath=%cd%\ReShade\Screenshots
+	echo PerformanceMode=0
 	echo EffectSearchPaths=%cd%\ReShade\Shaders
 	echo TextureSearchPaths=%cd%\ReShade\Textures
-    echo CurrentPreset=0
-    echo PresetFiles=%cd%\ReShade\Presets\Default.ini
+    echo TutorialProgress=4
 	echo PreprocessorDefinitions=RESHADE_DEPTH_LINEARIZATION_FAR_PLANE=1000.0,RESHADE_DEPTH_INPUT_IS_UPSIDE_DOWN=0,RESHADE_DEPTH_INPUT_IS_REVERSED=0,RESHADE_DEPTH_INPUT_IS_LOGARITHMIC=0
-    echo.
+    echo CurrentPreset=0
+	echo PresetFiles=%cd%\ReShade\Presets\Default.ini
+	echo ScreenshotFormat=1
+    echo ShowClock=0
+    echo ShowFPS=0
+	echo.
     echo [INPUT]
 	echo KeyMenu=123,0,0
+	echo InputProcessing=2
 	echo KeyScreenshot=44,0,0
     echo KeyEffects=121,0,0
-	echo InputProcessing=2
 	echo.
 	echo [STYLE]
-    echo Alpha=0.950000
     echo ColFPSText=1.000000,1.000000,0.000000
+	echo Alpha=0.950000
 	echo ColActive=0.313726,0.313726,0.313726
 	echo ColBackground=0.086275,0.086275,0.086275
-	echo ColText=0.866667,0.866667,0.866667
 	echo ColItemBackground=0.196078,0.196078,0.196078
+	echo ColText=0.866667,0.866667,0.866667
 	echo.
 ) > %_RESHADE_NAME_%.ini
 
