@@ -24,9 +24,9 @@ Full list of what it does:
 
 The configuration file will disable the tutorial, set a dark color scheme, set up the folders, the preset file, set input to be blocked while the ReShade GUI is open and set the shortcut keys as such:
 
-    `F12` Toggle GUI
+   `F12` Toggle GUI
 
-    `F10` Toggle Effects
+   `F10` Toggle Effects
 
-    `PrintScreen` Take a screenshot
+   `PrintScreen` Take a screenshot
 
