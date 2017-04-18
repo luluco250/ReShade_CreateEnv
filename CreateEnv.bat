@@ -1,4 +1,4 @@
-::ReShade 3.0b5 Environment Creator
+::ReShade Environment Creator
 
 @echo off
 
